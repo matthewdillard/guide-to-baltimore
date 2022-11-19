@@ -1,0 +1,30 @@
+html {
+    background: white;
+    width: 100vw;
+    height: fit-content;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 100%;
+    max-width: 1200px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+h1, h2, h3 {
+    font-family: 'Cabin', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.map-wrapper {
+    width: 66%;
+    min-height: 400px;
+    height: 66vh;
+}

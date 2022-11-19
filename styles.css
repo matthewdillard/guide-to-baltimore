@@ -1,0 +1,40 @@
+html {
+  background: white;
+  width: 100vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body {
+  width: 100%;
+  max-width: 1200px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+h1, h2, h3 {
+  font-family: 'Cabin', sans-serif;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.map-wrapper {
+  width: 66%;
+  min-height: 400px;
+  height: 66vh;
+}
+/*# sourceMappingURL=styles.css.map */
