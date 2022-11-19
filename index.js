@@ -1,10 +1,6 @@
-let map;
+var iframe = document.getElementById('iframe-map');
+iframe.contentDocument.body.addEventListener('click', Handler);
 
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
-  });
+function Handler() {
+    alert('works');
 }
-
-window.initMap = initMap;

@@ -10,16 +10,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-    defer
-    ></script>
     <script src="./index.js"></script>
     
     <main>
-        <h1>Tess' Guide to Baltimore</h1>
-        <iframe class="map-wrapper" src="https://www.google.com/maps/d/embed?mid=10ONTQ-RWViBZlnGl8_ei-KAw6Wdi9ubE&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
-        <!-- <div class="map-wrapper" id="map"></div> -->
+        <header>
+            <h1>Tess's Guide to Baltimore</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </header>
+        <map-wrapper>
+            <legend>
+                <div class="legend-item">
+                    <div style="background-color: #0088d1" class="color-key"></div>
+                    <div class="legend-text">American</div>
+                </div>
+                <div class="legend-item">
+                    <div style="background-color: #673ab6" class="color-key"></div>
+                    <div class="legend-text">French</div>
+                </div>
+                <div class="legend-item">
+                    <div style="background-color: #a52714" class="color-key"></div>
+                    <div class="legend-text">Italian</div>
+                </div>
+                <div class="legend-item">
+                    <div style="background-color: #f47b02" class="color-key"></div>
+                    <div class="legend-text">Latin American</div>
+                </div>
+                <div class="legend-item">
+                    <div style="background-color: #0b7038" class="color-key"></div>
+                    <div class="legend-text">Mediterranian</div>
+                </div>
+                <div class="legend-item">
+                    <div style="background-color: #000" class="color-key"></div>
+                    <div class="legend-text">Bars</div>
+                </div>
+                <div class="legend-item">
+                    <div style="background-color: #ffea00" class="color-key"></div>
+                    <div class="legend-text">Brunch</div>
+                </div>
+                <div class="legend-item">
+                    <div style="background-color: #795548" class="color-key"></div>
+                    <div class="legend-text">Desserts</div>
+                </div>
+
+            </legend>
+            <iframe id="iframe-map" class="map" src="https://www.google.com/maps/d/embed?mid=10ONTQ-RWViBZlnGl8_ei-KAw6Wdi9ubE&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
+        </map-wrapper>
     </main>
   </body>
 </html>
